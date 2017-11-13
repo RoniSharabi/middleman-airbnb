@@ -1,14 +1,13 @@
-#about {
+#team {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
   background-image: linear-gradient(0deg, white 50%, #F4F4F4 50%);
-  img {
-    width: 150px;
+ img {
+    width: 200px;
     box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
-    height: 100px
   }
   h1 {
     font-size: 30px;
@@ -30,5 +29,17 @@
   }
   .fa-heart {
     color: #D23333;
+  }
+  .img-circle {
+    height: 200px;
+    width: 200px;
+  }
+  .btn-profile {
+    border: none;
+    color: gray;
+  }
+  .btn-profile:hover {
+    text-decoration: none;
+    color: #C71585;
   }
 }
