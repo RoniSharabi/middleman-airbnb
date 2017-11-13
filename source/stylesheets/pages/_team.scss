@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  background-image: linear-gradient(0deg, white 50%, #F4F4F4 50%);
+  background-image: linear-gradient(0deg, white 50%, #aeeae8 50%);
  img {
     width: 200px;
     box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
@@ -40,6 +40,6 @@
   }
   .btn-profile:hover {
     text-decoration: none;
-    color: #C71585;
+    color: $green;
   }
 }
